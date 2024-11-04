@@ -1,0 +1,16 @@
+body {  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+.tasks-list, .task-detail {  
+  max-width: 800px;  
+  margin: 0 auto;  
+  padding: 20px;  
+}  
+  
+@media (max-width: 600px) {  
+  .tasks-list, .task-detail {  
+    padding: 10px;  
+  }  
+}
